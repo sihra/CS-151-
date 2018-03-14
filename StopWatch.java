@@ -1,3 +1,4 @@
+import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
@@ -65,8 +66,40 @@ public class StopWatch extends JPanel {
 		
 		lp.add(outer, Integer.valueOf(1));
 		lp.add(inner, Integer.valueOf(2));
-		
-		add(lp);
+		JPanel buttonPanel = new JPanel();
+		JButton startB = new JButton("start");
+		startB.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				start();
+			}
+		});
+		JButton stopB = new JButton("stop");
+		stopB.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				stop();
+			}
+		});
+		JButton resetB = new JButton("reset");
+		resetB.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				reset();
+			}
+		});
+		buttonPanel.add(startB);
+		buttonPanel.add(stopB);
+		buttonPanel.add(resetB);
+		setLayout(new BorderLayout());
+		add(buttonPanel, BorderLayout.NORTH);
+		add(lp,BorderLayout.CENTER);
 		runT = new Timer(TICK_DELAY, new ActionListener()
 		{
 			public void actionPerformed(ActionEvent e)
@@ -79,8 +112,6 @@ public class StopWatch extends JPanel {
 	private void tick()
 	{
 		m_numSecs+=TICK_DELAY;
-		System.out.println(m_numSecs);
-		
 		if (m_numSecs>=60_000)
 		{
 			
@@ -92,8 +123,8 @@ public class StopWatch extends JPanel {
 	private void updateWatch()
 	{
 		tick();
-		double secAng = (m_numSecs*0.06/TICK_DELAY);
-		double minAng = ((double)m_numSecs/(1000*TICK_DELAY))+(m_numMin)*6;
+		double secAng = ((double)m_numSecs/(1000.0))*6;
+		double minAng = (((double)m_numSecs/(60000.0))+(m_numMin))*6;
 		//double minAng = (m_numMin*5);
 		
 		outer.setAng(secAng);
