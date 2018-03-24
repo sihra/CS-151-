@@ -7,7 +7,10 @@ import java.awt.Stroke;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.GeneralPath;
 
-//it will aggregate clock face and clock hand
+/**
+ * This class is almost identical to the ClockFace class provided in the assignment.
+ * The only difference is that it is numbered from 5-60 instead of 1-12
+ */
 public class StopWatchFace extends ClockFace {
 	private int m_x;
 	private int m_y;
@@ -18,7 +21,7 @@ public class StopWatchFace extends ClockFace {
 		m_y = y;
 		m_width = width;
 	}
-
+	
 	@Override
 	public void paintComponent(Graphics g) {
 		Graphics2D g2 = (Graphics2D) g;
