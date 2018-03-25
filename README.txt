@@ -1,9 +1,10 @@
+011935326 (Melesse, Alemnew)
+(Shira, Gurdev)
 011195639 (Finer, Zackary)
-<Names>
 
 Instructions:
 1. Please find the relevant source files for this project in the src folder in the directory this readme file is loacted in.
-2. Please find the executable jar file, ClockTester.jar, for this application in the directory this readme file is located in.
+2. Please find the executable jar file, clockapp.jar, for this application in the directory this readme file is located in.
 
 Notes:
 The clockface provided in the assignment was used un-modified for the clock. However, StopWatchFace, the class used to draw the face
