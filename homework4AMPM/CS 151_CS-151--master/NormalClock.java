@@ -39,12 +39,12 @@ public class NormalClock extends JPanel {
 		second = ClockHand.getSecondHand(x, y, width);
 			second.setBounds(x, y, width, width);
 		MiddayBox box = new MiddayBox();
-			box.setBounds(x, y, width, width);
+			//box.setBounds(x, y, width, width);
 		
-		lp.add(face, Integer.valueOf(2));//add the face to the bottom layer
-		lp.add(hour, Integer.valueOf(3));//add the hour hand to the second layer
-		lp.add(minute, Integer.valueOf(4));//add the minute hand to the third layer
-		lp.add(second, Integer.valueOf(5));//add the second hand to the fourth layer
+		lp.add(face, Integer.valueOf(0));//add the face to the bottom layer
+		lp.add(hour, Integer.valueOf(2));//add the hour hand to the second layer
+		lp.add(minute, Integer.valueOf(3));//add the minute hand to the third layer
+		lp.add(second, Integer.valueOf(4));//add the second hand to the fourth layer
 		lp.add(box, Integer.valueOf(1));
 		add(lp);//add the layered pane to this panel
 		/*
