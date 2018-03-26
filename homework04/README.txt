@@ -14,3 +14,5 @@ to draw numbers in increments of 5 instead of 1.
 We also decided to include additional buttons for the stop watch which start, stop, and reset the stopwatch. It should be noted that
 if the stopwatch is started, it will continue running until the user stops it or closes the application; the stopwatch does not stop when
 the view is changed to the clock.
+
+An indicator for AM/PM was also added below the clock's center to convey a more accurate time reading. The AM will turn pink if the time is in the AMs and PM will turn pink if the time is in the PMs.
