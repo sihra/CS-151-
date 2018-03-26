@@ -38,14 +38,18 @@ public class NormalClock extends JPanel {
 			minute.setBounds(x, y, width, width);
 		second = ClockHand.getSecondHand(x, y, width);
 			second.setBounds(x, y, width, width);
-		MiddayBox box = new MiddayBox();
+
+		midday = new MiddayBox();
+		int posX = (width-(int)midday.getPreferredSize().getWidth())/2;
+		int posY = (int)(width*0.7);
+			midday.setBounds(posX, posY, (int)midday.getPreferredSize().getWidth(), (int)midday.getPreferredSize().getHeight());
 			//box.setBounds(x, y, width, width);
 		
 		lp.add(face, Integer.valueOf(0));//add the face to the bottom layer
 		lp.add(hour, Integer.valueOf(2));//add the hour hand to the second layer
 		lp.add(minute, Integer.valueOf(3));//add the minute hand to the third layer
 		lp.add(second, Integer.valueOf(4));//add the second hand to the fourth layer
-		lp.add(box, Integer.valueOf(1));
+		lp.add(midday, Integer.valueOf(1));
 		add(lp);//add the layered pane to this panel
 		/*
 		 * Create a timer which updates the clock every
