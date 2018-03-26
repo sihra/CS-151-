@@ -13,6 +13,7 @@ public class NormalClock extends JPanel {
 	private ClockHand minute,second,hour;//hands
 	private JLayeredPane lp;//layerd pane which will contain everything
 	private Timer runT;//timer which will be used to update the time
+	private MiddayBox midday;
 	/**
 	 * Contstructor for a normal clock
 	 * @param x - Integer of x
@@ -37,11 +38,18 @@ public class NormalClock extends JPanel {
 			minute.setBounds(x, y, width, width);
 		second = ClockHand.getSecondHand(x, y, width);
 			second.setBounds(x, y, width, width);
+
+		midday = new MiddayBox();
+		int posX = (width-(int)midday.getPreferredSize().getWidth())/2;
+		int posY = (int)(width*0.7);
+			midday.setBounds(posX, posY, (int)midday.getPreferredSize().getWidth(), (int)midday.getPreferredSize().getHeight());
+			//box.setBounds(x, y, width, width);
 		
-		lp.add(face, Integer.valueOf(1));//add the face to the bottom layer
+		lp.add(face, Integer.valueOf(0));//add the face to the bottom layer
 		lp.add(hour, Integer.valueOf(2));//add the hour hand to the second layer
 		lp.add(minute, Integer.valueOf(3));//add the minute hand to the third layer
 		lp.add(second, Integer.valueOf(4));//add the second hand to the fourth layer
+		lp.add(midday, Integer.valueOf(1));
 		add(lp);//add the layered pane to this panel
 		/*
 		 * Create a timer which updates the clock every
@@ -73,9 +81,11 @@ public class NormalClock extends JPanel {
 		double minAng = nMinute*6;//convert the number of minutes into an angle 60*6=360
 		double hrAng = nHour*30;//convert the number of hours into an angle 12*30=360
 		double scdAng = nSecond*6;//conver the number seconds into an angle 60*6=360;
+		int middayTime = converter.get(Calendar.HOUR_OF_DAY);
 		/*
 		 * Set the angles for each corresponding hand
 		 */
+		midday.update(middayTime);
 		hour.setAngle(hrAng);
 		minute.setAngle(minAng);
 		second.setAngle(scdAng);
