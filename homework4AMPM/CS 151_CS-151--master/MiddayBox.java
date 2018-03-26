@@ -52,7 +52,7 @@ public class MiddayBox extends JPanel{
 	 * @param time - 24 hour time
 	 */
 	public void update(int time) {
-		if(time > 12){
+		if(time < 12){
 			panelAM.setBackground(Color.PINK);
 			panelPM.setBackground(Color.WHITE);
 		}else {
