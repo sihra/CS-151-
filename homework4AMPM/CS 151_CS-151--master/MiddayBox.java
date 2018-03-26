@@ -16,28 +16,31 @@ import javax.swing.JTextField;
 import com.sun.javafx.geom.Rectangle;
 
 public class MiddayBox extends JPanel{
-	
-	private JTextField textAM;
+	int x;
+	int y;
+	private JLaybel textAM;
 	private JPanel panelAM;
 	
-	private JTextField textPM;
+	private JLaybel textPM;
 	private JPanel panelPM;
 	
-	public MiddayBox() {
+	public MiddayBox(int x, int y) {
+		this.x = x;
+		this.y = y;
 		// Creates a panel for the AM box
 		panelAM = new JPanel();
-		panelAM.setBounds(0, 0, 27, 25);
+		//panelAM.setBounds(0, 0, 27, 25);
 		
-		textAM = new JTextField("AM");
-		textAM.setBounds(0, 0, 26, 24);
+		textAM = new JLaybel("AM");
+		//textAM.setBounds(0, 0, 26, 24);
 		panelAM.add(textAM);
 		
 		// Creates a panel for the PM box
 		panelPM = new JPanel();
-		panelPM.setBounds(0, 0, 54, 50);
+		//panelPM.setBounds(0, 0, 54, 50);
 		
-		textPM = new JTextField("PM");
-		textPM.setBounds(0, 0, 26, 24);
+		textPM = new JLaybel("PM");
+		//textPM.setBounds(26, 0, 26, 24);
 		panelPM.add(textPM);
 		
 		// Adds the two panels to this panel for a flow layout
@@ -45,6 +48,7 @@ public class MiddayBox extends JPanel{
 		this.setLayout(flow);
 		this.add(panelAM);
 		this.add(panelPM);
+		this.setBounds(x,y,54,50);
 	}
 	
 	/**
@@ -59,23 +63,26 @@ public class MiddayBox extends JPanel{
 			panelPM.setBackground(Color.PINK);
 			panelAM.setBackground(Color.WHITE);
 		}
+		repaint();
 	}
 	
 	/**
 	 * Paint method that paints the box
 	 */
-	  public void paintComponent(Graphics g)
+	  public void paint(Graphics g)
 	   {
+	      super.paint(g);
+		  /*
 	      Graphics2D g2 = (Graphics2D) g;
-	      super.paintComponent(g2);
-	     
+	      
 	      Rectangle2D.Double boxAM = new Rectangle2D.Double(0, 0, 27, 25);
 	      g2.setColor(Color.WHITE);
 	      g2.fill(boxAM);
 	      
-	      Rectangle2D.Double boxPM = new Rectangle2D.Double(0, 0, 54, 50);
+	      Rectangle2D.Double boxPM = new Rectangle2D.Double(0, 0, 27, 25);
 	      g2.setColor(Color.WHITE);
 	      g2.fill(boxPM);
+	      */
 
 	   }
 
