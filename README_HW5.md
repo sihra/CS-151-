@@ -33,7 +33,7 @@ TO DO list for this TO DO Project LOL
 <b>Requirements for this Project</b>
  1. Be able to:
     1. Create a new project
-       - Will contatin multiple tasks for each project
+       - Will contain multiple tasks for each project
     2. Create a new task
        - Automatically put in the TO DO
     3. Edit task
@@ -47,19 +47,19 @@ TO DO list for this TO DO Project LOL
  3. Due Date
     - We should have a page fold icon on tabs with no due dates so the user could click and add one if there was no due date
  4. Current Status
-      - Being in the colums should be the current status, but we could have a view of all the taska with them being color coded and a legend of all the statuses
+      - Being in the columns should be the current status, but we could have a view of all the tasks with them being color coded and a legend of all the statuses
       - There could be different sortings too, like from date created, date due, or categorized by setting with to do tasks all at top to done tasks sorted last
           - She requires that when sorting from due date, the tasks without due dates will be at the bottom
- 5. Color coded to category, maybe different shades of color would indicate which was more imprtant
+ 5. Color coded to category, maybe different shades of color would indicate which was more important
       - The darker the color, the more important, can only go up to 3 shades to make colors stand out more
          - We can also sort through these
-      - Gold can be done beacaure they're WINNERS
+      - Gold can be done beacause they're WINNERS
         
 <b>Login Page</b>
  1. We can make a logo for our whole project and make it appear on this
  2. We should have a create account button too and just route it to go to another page that allows users to sign up with their email
  3. Also adding a forgot password would be cool too
- 4. Also if they want to sync their to do list or join an exisitng one, we should allow that option but idk if we'd need to figure out how to make everything synced.
+ 4. Also if they want to sync their to do list or join an existing one, we should allow that option but idk if we'd need to figure out how to make everything synced.
         - If we wanted to allow a setting where people could sign into a "workspace" with other people, we could have two options after they login, a button for their personal projects, workspaces they're a part of, and adding a workspace that would send an invite to the other workspace> 
               - Also this would be too much work but just throwing out ideas
         
@@ -78,13 +78,13 @@ TO DO list for this TO DO Project LOL
       - I feel like she'll look for the small requirements she states in the homework and dock off points accordingly
  3. We can add a level of importance edit that would make the color darks as its more important
   
-<b>Saving/Loaidng a Taskboard</b>
+<b>Saving/Loadng a Taskboard</b>
  1. Vidya requires saving a taskboard and asking the user for a filename and saving it
       - We should prompt a question for creating a folder for the TO DO list app to place all the taskboards in
  2. We also need to load the taskboard by asking the user for the filename
   
- <b>Additonal Functionality</b>
+ <b>Additional Functionality</b>
   1. I already detailed the background color one so if we use that we'll fullfill the requirement for at least one
-  2. This wasn't lised, but I also detailed the imporatnce one
+  2. This wasn't listed, but I also detailed the importance one
   3. We could add more from the list if we have time, the date picker one sounds cool too
   
