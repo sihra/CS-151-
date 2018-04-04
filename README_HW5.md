@@ -11,7 +11,7 @@ Requirements
     4. Load a saved taskboard. 
        - Also have a backlog of everything, I'm assuming is a collection of all the tasks within the project, we can have a button that goes to the log itself
 
-Tasks
+<b>Tasks</b>
  1. Name should be bolded
  2. Description
  3. Due Date
