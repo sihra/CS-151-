@@ -7,15 +7,18 @@ TO DO list for this TO DO Project LOL
   
   <b>Model View Controller Classes</b>
   <i>Required</i>
+  
    1. TaskBoardModel ---
    2. ProjectModel ---
    3. TaskModel ---
    
    <i>Suggested by Vidya</i>
+   
    4. TaskModelComparator ---
    5. TaskModelListener (ProjectModels would implement this) ---
    
    <b>View Classes</b>
+   
    6. LoginView ---
    7. MainScreen ---
    8. TaskView ---
