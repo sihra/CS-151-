@@ -1,4 +1,4 @@
-Requirements
+<b>Requirements</b>
  1. Class Diagrams
  2. Sequence Diagrams
  3. Be able to:
@@ -25,7 +25,7 @@ Requirements
          - We can also sort through these
       - Gold can be done beacaure they're WINNERS
         
-Login Page
+<b>Login Page</b>
  1. We can make a logo for our whole project and make it appear on this
  2. We should have a create account button too and just route it to go to another page that allows users to sign up with their email
  3. Also adding a forgot password would be cool too
@@ -33,11 +33,11 @@ Login Page
    - If we wanted to allow a setting where people could sign into a "workspace" with other people, we could have two options after they login, a button for their personal projects, workspaces they're a part of, and adding a workspace that would send an invite to the other workspace> 
         - Also this would be too much work but just throwing out ideas
         
-Creating New Project/Task (After the Login page)
+<b>Creating New Project/Task (After the Login page)</b>
  1. After the login, Vidya requires use to have a create project, so we can have some buttons for create project and like a list view of all the other projects they have.
  
-Main Screen
-Columns
+<b>Main Screen</b>
+<b>Columns</b>
  1. Backlog, TO DO, In Progress, Review, Done
    - Should backlog be a button where you press and a column sort of pops from the left of the screen?
    - Vidya requires we have a + button for creating a new task in that section, and then also on the dashboard too, but that would be a general create new button for project or task
