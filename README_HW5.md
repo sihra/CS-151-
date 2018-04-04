@@ -1,9 +1,9 @@
 TO DO list for this TO DO Project LOL
-  <b>MUST use Model View Controller Design Pattern</b>
+<b>MUST use Model View Controller Design Pattern</b>
   
-  <b><u>Classes to Implement</u></b>
+<b><u>Classes to Implement</u></b>
   
-  <i>Please add 3 x's to the classes implemented, we can use this as a checklist </i>
+<i>Please add 3 x's to the classes implemented, we can use this as a checklist </i>
   
   <b>Model View Controller Classes</b>
   <i>Required</i>
