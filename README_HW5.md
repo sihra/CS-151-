@@ -42,4 +42,11 @@
    - Should backlog be a button where you press and a column sort of pops from the left of the screen?
    - Vidya requires we have a + button for creating a new task in that section, and then also on the dashboard too, but that would be a general create new button for project or task
    
+<b>Editing a Task</b>
+ 1. Vidya requires being able to edit the name, description, status, and due date
+ 2. She also requires the button say "Edit" while the title of the pop up should be "Edit Task"
+   - I feel like she'll look for the small requirements she states in the homework and dock off points accordingly
+ 3. We can add a level of importance edit that would make the color darks as its more important
+  
+   
    
