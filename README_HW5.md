@@ -5,7 +5,7 @@ TO DO list for this TO DO Project LOL
   
 <i>Please add 3 x's to the classes implemented, we can use this as a checklist </i>
   
-  <b>Model View Controller Classes</b>
+<b>Model View Controller Classes</b>
   <i>Required</i>
   
    1. TaskBoardModel ---
@@ -86,7 +86,4 @@ TO DO list for this TO DO Project LOL
   1. I already detailed the background color one so if we use that we'll fullfill the requirement for at least one
   2. This wasn't lised, but I also detailed the imporatnce one
   3. We could add more from the list if we have time, the date picker one sounds cool too
-  
-
-   
   
