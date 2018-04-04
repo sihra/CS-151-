@@ -1,7 +1,32 @@
-<b>Requirements</b>
- 1. Class Diagrams
- 2. Sequence Diagrams
- 3. Be able to:
+TO DO list for this TO DO Project LOL
+  <b>MUST use Model View Controller Design Pattern</b>
+  
+  <b><u>Classes to Implement</u></b>
+  <i>Please add 3 x's to the classes implemented, we can use this as a checklist </i>
+  
+  <b>Model View Controller Classes<b>
+  <i>Required</i>
+   1. TaskBoardModel ---
+   2. ProjectModel ---
+   3. TaskModel ---
+   
+   <i>Suggested by Vidya</i>
+   4. TaskModelComparator ---
+   5. TaskModelListener (ProjectModels would implement this) ---
+   
+   <b>View Classes</b>
+   6. LoginView ---
+   7. MainScreen ---
+   8. TaskView ---
+   9. ProjectView ---
+   10. File Saving//Loading ---
+   
+   11. Class Diagrams ---
+   12. Sequence Diagrams ---
+
+
+<b>Requirements for this Project</b>
+ 1. Be able to:
     1. Create a new project
        - Will contatin multiple tasks for each project
     2. Create a new task
@@ -30,8 +55,8 @@
  2. We should have a create account button too and just route it to go to another page that allows users to sign up with their email
  3. Also adding a forgot password would be cool too
  4. Also if they want to sync their to do list or join an exisitng one, we should allow that option but idk if we'd need to figure out how to make everything synced.
-   - If we wanted to allow a setting where people could sign into a "workspace" with other people, we could have two options after they login, a button for their personal projects, workspaces they're a part of, and adding a workspace that would send an invite to the other workspace> 
-        - Also this would be too much work but just throwing out ideas
+        - If we wanted to allow a setting where people could sign into a "workspace" with other people, we could have two options after they login, a button for their personal projects, workspaces they're a part of, and adding a workspace that would send an invite to the other workspace> 
+              - Also this would be too much work but just throwing out ideas
         
 <b>Creating New Project/Task (After the Login page)</b>
  1. After the login, Vidya requires use to have a create project, so we can have some buttons for create project and like a list view of all the other projects they have.
@@ -39,14 +64,25 @@
 <b>Main Screen</b>
 <b>Columns</b>
  1. Backlog, TO DO, In Progress, Review, Done
-   - Should backlog be a button where you press and a column sort of pops from the left of the screen?
-   - Vidya requires we have a + button for creating a new task in that section, and then also on the dashboard too, but that would be a general create new button for project or task
+     - Should backlog be a button where you press and a column sort of pops from the left of the screen?
+     - Vidya requires we have a + button for creating a new task in that section, and then also on the dashboard too, but that would be a general create new button for project or task
    
 <b>Editing a Task</b>
  1. Vidya requires being able to edit the name, description, status, and due date
  2. She also requires the button say "Edit" while the title of the pop up should be "Edit Task"
-   - I feel like she'll look for the small requirements she states in the homework and dock off points accordingly
+      - I feel like she'll look for the small requirements she states in the homework and dock off points accordingly
  3. We can add a level of importance edit that would make the color darks as its more important
   
+<b>Saving/Loaidng a Taskboard</b>
+ 1. Vidya requires saving a taskboard and asking the user for a filename and saving it
+      - We should prompt a question for creating a folder for the TO DO list app to place all the taskboards in
+ 2. We also need to load the taskboard by asking the user for the filename
+  
+ <b>Additonal Functionality</b>
+  1. I already detailed the background color one so if we use that we'll fullfill the requirement for at least one
+  2. This wasn't lised, but I also detailed the imporatnce one
+  3. We could add more from the list if we have time, the date picker one sounds cool too
+  
+
    
-   
+  
