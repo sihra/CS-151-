@@ -66,6 +66,7 @@ TO DO list for this TO DO Project LOL
         
 <b>Creating New Project/Task (After the Login page)</b>
  1. After the login, Vidya requires use to have a create project, so we can have some buttons for create project and like a list view of all the other projects they have.
+   - If there's a task or project thats same, tell the user there is already one but still be able to allow them to make duplicates
  
 <b>Main Screen</b>
 <b>Columns</b>
