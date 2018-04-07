@@ -26,6 +26,7 @@ TO DO list for this TO DO Project LOL
    8. TaskView ---
    9. ProjectView ---
    10. File Saving//Loading ---
+        - serialization feautre 
    
    11. Class Diagrams ---
    12. Sequence Diagrams ---
