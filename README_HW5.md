@@ -29,8 +29,10 @@ TO DO list for this TO DO Project LOL
         - serialization feautre 
         
    <b>Interfaces</b>
+   
        - View Model Classes 
-       - TaskViewInterface - have update TaskView methods, change task being displayed
+       - TaskViewInterface 
+            - have update TaskView methods, change task being displayed
             - linked to one Model data structure
             - Interface for TaskView and ProjectView     
        - LoginViewInterface - Interface for LoginView
