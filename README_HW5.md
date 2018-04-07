@@ -27,9 +27,19 @@ TO DO list for this TO DO Project LOL
    9. ProjectView ---
    10. File Saving//Loading ---
         - serialization feautre 
+        
+   <b>Interfaces</b>
+       - View Model Classes 
+       - TaskViewInterface - have update TaskView methods, change task being displayed
+            - linked to one Model data structure
+            - Interface for TaskView and ProjectView     
+       - LoginViewInterface - Interface for LoginView
    
-   11. Class Diagrams ---
-   12. Sequence Diagrams ---
+   11. Class Diagrams --- (together on wednesday) done by Wednesday
+   12. Sequence Diagrams ---  done by Friday
+        - Andrew: ---
+        - Zach: ---
+        - Gurdev: ---
 
 
 <b>Requirements for this Project</b>
