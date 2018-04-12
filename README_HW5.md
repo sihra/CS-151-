@@ -40,7 +40,7 @@ TO DO list for this TO DO Project LOL
    11. Class Diagrams --- (together on wednesday) done by Wednesday
    12. Sequence Diagrams ---  done by Friday
         - Andrew: ---
-        - Zach: ---
+        - Zack: ---
         - Gurdev: ---
 
 
